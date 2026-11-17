@@ -1,0 +1,27 @@
+{
+  "name": "hds-weight-quickstart",
+  "version": "1.0.0",
+  "description": "The smallest Health Data Safe web app: sign in, store a weight, list the stored weights.",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "hds-lib": "git+https://github.com/healthdatasafe/hds-lib-js.git"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8",
+    "vite-plugin-backloop.dev": "^2.3.0"
+  },
+  "allowScripts": {
+    "github:healthdatasafe/hds-lib-js": true,
+    "backloop.dev": true
+  }
+}

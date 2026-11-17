@@ -1,0 +1,20 @@
+{
+  "name": "hds-dev-examples",
+  "version": "1.0.0",
+  "description": "Small, runnable examples for building on Health Data Safe. Each folder is a standalone project.",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "globals": "^16.0.0",
+    "neostandard": "^0.12.2"
+  }
+}
